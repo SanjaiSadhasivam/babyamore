@@ -1,0 +1,5 @@
+@media (min-width: 1200px){
+.nav-tabs .nav-item {
+    padding-right: 16px;
+}
+}

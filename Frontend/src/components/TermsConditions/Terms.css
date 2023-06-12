@@ -1,0 +1,49 @@
+.TermHead{
+    text-align: center;
+    font-size: 26px;
+    font-weight: 600;
+    color: #555;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 0.5em;
+    text-rendering: optimizeSpeed;
+    font-family: "Source Sans Pro", sans-serif !important;
+}
+
+.TermArea{
+    padding-top: 26px;
+    text-align: justify;
+    color: grey;
+}
+
+p.headie {
+    font-weight: 700;
+    font-size: 17px;
+    margin-bottom: 20px !important;
+}
+
+p.headie1 {
+    font-weight: 600;
+    font-size: 15px;
+    margin-bottom: 20px !important;
+}
+
+p.para.line-hei {
+    margin-bottom: 28px !important;
+    line-height: 28px;
+}
+
+li.para.line-hei {
+    line-height: 28px;
+}
+
+.is-divider1 {
+    height: 3px!important;
+    display: block!important;
+    background-color: rgba(0, 0, 0, .1)!important;
+    margin: 1em 0 1em!important;
+    width: 100%!important;
+    max-width: 30px!important;
+    margin-left: auto!important;
+    margin-right: auto!important;
+}

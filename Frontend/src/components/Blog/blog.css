@@ -1,0 +1,236 @@
+.blog_card_section {
+  /* width: 100% !important; */
+}
+/* Float three columns side by side */
+.column {
+  float: left;
+  width: 24.33%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {
+  margin: 0 -5px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 700px) {
+  .container {
+    width: 100%;
+  }
+
+  .column {
+    width: 50%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the cards */
+.blog_card {
+  padding: 5px;
+  text-align: center;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.blog_card .profile {
+  border-radius: 10px;
+  transition: 0.2s;
+}
+.card:hover .profile {
+  transform: scale(1.4);
+  border-top-right-radius: 50px;
+  border-top-left-radius: 50px;
+}
+
+.blog_card .content {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.blog_card .content .back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #f1f1f1e6;
+  transition: 1s;
+  z-index: 1;
+  padding: 10px;
+}
+
+.from-bottom {
+  top: 100%;
+  left: 0;
+}
+.blog_card:hover .content .from-bottom {
+  top: 20%;
+}
+
+.blog_card .content .back h3 {
+  font-size: 15px;
+  letter-spacing: 2px;
+}
+.blog_card .content .back .tem-img {
+  border-radius: 100%;
+}
+
+.blog_card .content .back .des {
+  font-size: 13px;
+  padding: 20px 0px;
+}
+
+.blog_card_section {
+  /* margin-bottom: 2rem !important; */
+}
+
+.blog_hr {
+  width: 10%;
+  margin: 0.7rem auto;
+  border: 3px solid grey;
+  border-top: 0 !important;
+}
+.front h4,
+.from-bottom h4 {
+  font-size: 15px;
+  line-height: 20px;
+  width: 70%;
+  margin: auto;
+  font-weight: bold;
+  color: #555656;
+  margin-top: 0.6rem;
+  text-align: center;
+}
+.front {
+  position: relative;
+}
+.blog_para {
+  font-size: small;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 85%;
+  margin: auto;
+  color: #888481;
+}
+.blog_card:hover .radius_tag {
+  background-color: #fc8181;
+  color: #fff;
+}
+
+.from-bottom p {
+  font-size: small;
+  width: 85%;
+  margin: auto;
+  color: #888481;
+}
+
+.radius_tag {
+  background-color: #fff;
+  border: 2px solid #fc8181;
+  color: #fc8181;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  position: absolute;
+  top: 4%;
+  left: 2%;
+  padding: 1px;
+}
+.radius_tag:first-child {
+  margin-bottom: 0 !important;
+  font-size: 11px !important;
+  font-weight: bolder !important;
+  position: absolute;
+  top: 1%;
+}
+.radius_tag p {
+  font-size: 11px;
+  font-weight: bolder !important;
+  margin-bottom: 80% !important;
+  position: absolute;
+  top: 45% !important;
+  left: 25% !important;
+}
+/* 
+@media only screen and (max-width: 700px) {
+    .blog_card_section {
+      margin-bottom: 6rem !important;
+      height: 404vh !important;
+  
+  }
+} */
+
+.pagination li a.active {
+  background-color: #4caf50;
+  color: white;
+}
+
+/* new */
+
+.pagination {
+  margin: 15px auto;
+  display: flex;
+  list-style: none;
+  outline: none;
+}
+.pagination > .active > a {
+  background-color: #47ccde;
+  border-color: #47ccde;
+  color: #fff;
+}
+.pagination > li > a {
+  border: 1px solid #47ccde;
+  padding: 5px 10px;
+  outline: none;
+  cursor: pointer;
+}
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus {
+  background-color: red;
+  border-color: #47ccde;
+  outline: none;
+}
+.pagination > li > a,
+.pagination > li > span {
+  color: #47ccde;
+}
+.pagination > li:first-child > a,
+.pagination > li:first-child > span,
+.pagination > li:last-child > a,
+.pagination > li:last-child > span {
+  border-radius: unset;
+}
+
+.activeButton {
+  width: 100%;
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  /* margin: 2% 0; */
+}
+.activeButton a {
+  border: 3px solid #fc8181 !important;
+  background-color: #fc8181 !important;
+  color: #fff !important;
+  padding: 5px 15px;
+  border-radius: 50px;
+  margin: 0 5px;
+}
+
+.activeButton a:active {
+  background-color: #fc8181;
+  color: #fff;
+  border-color: #fc8181;
+}

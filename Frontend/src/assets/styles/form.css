@@ -1,0 +1,611 @@
+/* Login Page */
+
+.sty {
+  border-radius: 20px;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  color: black;
+}
+
+.vl2 {
+  border-left: 1px solid #ececec;
+  height: 542px;
+  position: absolute;
+  left: 50%;
+  top: 250px;
+}
+
+@media (max-width: 768px) {
+  .vl2 {
+    display: none;
+  }
+}
+
+.in-sty {
+  width: 80% !important;
+}
+
+.checkout_left > h2 {
+  color: #4e4d4d;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  text-align: left;
+}
+
+.checkout_form p,
+.shipping_form p {
+  color: #0000006b !important;
+  font-size: 15px;
+  margin-bottom: 7px;
+}
+
+.ste {
+  margin-bottom: 1.5rem;
+}
+
+.ste a {
+  color: #d26e4b;
+}
+
+.stee {
+  background-color: #fc8181;
+  border: none;
+  padding: 7px;
+  font-weight: 600;
+}
+
+.checkout_form label {
+  color: #212121;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.btn {
+  color: #d26e4b;
+}
+
+.btn-default:hover,
+.btn-default:focus,
+.btn-default.focus,
+.btn-default:active,
+.btn-default.active,
+.open > .dropdown-toggle.btn-default {
+  background-color: #fc8181;
+  -webkit-box-shadow: inset 0 0 0 100px rgb(0 0 0 /20%);
+  border-radius: 20px;
+  color: white;
+  padding: 5px !important;
+  font-size: 16px;
+}
+
+a:hover,
+a:focus {
+  text-decoration: none;
+  /* color: #fc8181; */
+}
+
+.dig_wc_countrycodecontainer {
+  display: none;
+  position: absolute;
+  top: 0;
+  z-index: 10;
+  left: 0;
+}
+
+.dig_wc_countrycodecontainer input,
+.dig_wc_loginViaContainer {
+  text-align: center;
+}
+
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn.active.focus {
+  outline: thin dotted;
+  /* outline: 5px auto -webkit-focus-ring-color; */
+  outline-offset: -2px;
+}
+
+.c_name_box,
+.company_name,
+.c_address,
+.c_state_box,
+.c_mail_box,
+.checkbox {
+  padding-bottom: 5px;
+}
+
+.vl {
+  border-left: 1px solid #ececec;
+  /* height: 580px; */
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+}
+
+/* 13-04-22 */
+
+.checkout_left {
+  /* padding: 0px 22px 22px; */
+}
+
+/* 13-04-22 */
+
+.lost-page {
+  padding: 0px 14px;
+}
+
+/* 13-04-22 */
+
+.country_code {
+  position: relative !important;
+  /* left: -0.2em; */
+}
+#countrycode1 {
+  background-color: #f7f8f9;
+  width: 10%;
+  text-align: center;
+  z-index: 1;
+  border: none;
+  position: relative;
+  box-shadow: rgb(0 0 0 / 10%) 0px 1px 2px inset;
+  margin-top: 0px;
+  left: 0px;
+  border-right: 2px solid #d9d9d9;
+  color: #cfc7c7;
+
+  border-radius: 20px 0px 0px 20px;
+  padding: 10px;
+  padding-left: 0% !important;
+  background-color: #f7f7f7;
+  margin-top: 0 !important;
+  box-shadow: none !important;
+  color: black;
+}
+.mob_no {
+  padding-left: 8em !important;
+  width: 90% !important;
+}
+
+/* Login Page */
+
+/* Lost Password */
+
+.lost_password_text {
+  color: #777;
+  padding: 0 0 0 1em;
+}
+
+/* 13-04-22 */
+
+.lost_pwd_email {
+  /* font-weight: bold !important; */
+  font-size: 1.5em !important;
+}
+
+/* 13-04-22 */
+
+.reset_btn {
+  padding: 0.5em;
+  font-size: 1.6em !important;
+  font-weight: bolder;
+  letter-spacing: 0em;
+}
+
+/* 13-04-22 */
+
+.cont-form {
+  padding-top: 91px;
+}
+
+/* 13-04-22 */
+
+.head-office-text {
+  font-size: 16px !important;
+}
+
+/* 13-04-22 */
+
+.sub-button {
+  font-weight: 700;
+  font-size: 16px;
+  width: 100px !important;
+}
+
+.sidenavcart a:hover {
+  color: #555;
+}
+
+/* Lost Password */
+
+/* 13-04-22 */
+
+.log-button {
+  color: #fff;
+  font-weight: 700;
+  /* font-size: 1.6rem; */
+  /* padding: 8px 16px !important; */
+
+  background-color: #fc8181 !important;
+  color: white !important;
+  padding: 5px !important;
+  font-size: 16px;
+}
+
+.digcon {
+  position: relative;
+  direction: ltr;
+}
+
+.dig_wc_countrycodecontainer {
+  position: absolute;
+  top: 0;
+  z-index: 10;
+  left: 0;
+}
+
+.dig_wc_countrycodecontainer input,
+.dig_wc_loginViaContainer {
+  text-align: center;
+}
+
+.countrycode {
+  margin-top: 0;
+  direction: ltr;
+  width: auto !important;
+}
+
+.digit_cs-list {
+  position: absolute;
+  top: 0;
+  display: none;
+  padding: 0;
+  margin: 0;
+  color: #777;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  text-align: left;
+  border: 1px solid #d1d1d1;
+  width: 100%;
+  z-index: 9998;
+  background: #fff;
+  max-height: 144px;
+  overflow-y: auto;
+  -moz-box-shadow: 0 2px 3px #ccc;
+  -webkit-box-shadow: 0 2px 3px #ccc;
+  box-shadow: 0 2px 3px #ccc;
+}
+
+.digit_cs-list li.selected {
+  background: #f3f3f3;
+}
+
+.digit_cs-list li {
+  display: block;
+  padding: 5px 10px;
+  margin: 0;
+  cursor: default;
+}
+
+input::-webkit-calendar-picker-indicator {
+  opacity: 0;
+}
+.login-card {
+  position: relative;
+  transition: 0.2s ease-in-out;
+  font-size: 16px;
+  margin-top: 10px;
+  border: unset;
+  margin-bottom: 100px;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.forgot-password {
+  text-align: center;
+  position: relative;
+  bottom: 15px;
+}
+.checkbox p {
+  font-size: 17px;
+  margin-left: 1%;
+  color: #000 !important;
+}
+.checkbox1 p {
+  font-size: 17px;
+  margin-left: 7%;
+  color: #0000006b !important;
+  font-size: 15px;
+  margin-bottom: 5px;
+  font-weight: 600;
+  margin-top: -25px;
+}
+input[type="password"] {
+  border-radius: 5px;
+  box-shadow: inset 0 1px 2px rgb(0 0 0 / 10%);
+  border: 1px solid #ddd;
+  padding: 8px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.input i {
+  position: absolute;
+}
+.input1 i {
+  position: absolute;
+  right: 35px;
+}
+
+.input {
+  width: 100%;
+  margin-bottom: 0px;
+}
+
+.icon {
+  padding: 10px;
+  min-width: 40px;
+  color: #fc8181 !important;
+}
+.icon2 {
+  padding: 10px;
+  min-width: 40px;
+  color: #fc8181 !important;
+}
+.icon_1 {
+  padding: 10px;
+  min-width: 40px;
+  color: #fc8181 !important;
+  border: 1px solid #fc8181;
+  border-radius: 100%;
+  margin-right: 0.5em;
+  margin-left: 0.5em;
+}
+
+.sty2 {
+  width: 100%;
+  padding: 10px;
+  padding-left: 35px !important;
+  background-color: #f7f7f7;
+  margin-top: 0 !important;
+  box-shadow: none !important;
+  color: black !important;
+  border: 1px solid #ddd !important;
+  border-radius: 5px !important;
+}
+.sty1 {
+  width: 100%;
+  padding: 10px;
+  padding-left: 2% !important;
+  background-color: #f7f7f7;
+  margin-top: 0 !important;
+  box-shadow: none !important;
+  color: black;
+}
+.checkout_select {
+  width: 100%;
+  border: 1px solid #e8e8e8;
+  padding: 10px;
+  padding-left: 2% !important;
+  background-color: #f7f7f7;
+  margin-top: 0 !important;
+  margin-bottom: 20px;
+  box-shadow: none !important;
+  color: rgb(117, 117, 117);
+}
+/* Hide the default checkbox */
+.checkbox-1 {
+  visibility: hidden;
+}
+
+/* Creating a custom checkbox
+based on demand */
+.geekmark {
+  position: absolute;
+  top: 508px;
+  left: 44px;
+  height: 15px;
+  border-radius: 3px;
+  width: 17px;
+  border: 1px solid #fc8181;
+  cursor: pointer;
+}
+/* Specify the background color to be
+shown when checkbox is checked */
+input:checked ~ .geekmark {
+  background-color: #fc8181;
+}
+
+/* Checkmark to be shown in checkbox */
+/* It is not be shown when not checked */
+.geekmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Display checkmark when checked */
+input:checked ~ .geekmark:after {
+  display: block;
+}
+
+.geekmark:after {
+  left: 5px;
+  bottom: 4px;
+  width: 5px;
+  height: 9px;
+  border: solid white;
+  border-width: 0 2px 2px 0px;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+/*switch toggle*/
+.switch-label {
+  text-align: center;
+}
+.switch-handle {
+  border: 1px solid #fc8181;
+  border-radius: 5px !important;
+}
+.switch-handle1 {
+  border: 1px solid #fc8181;
+  border-radius: 5px !important;
+}
+.switch-handle1 > .react-switch-bg {
+  background: rgb(255 255 255) !important;
+}
+
+.switch-handle1 > .react-switch-bg > div:nth-child(2) {
+  opacity: 1 !important;
+  width: 100px !important;
+  text-align: center;
+  z-index: 1;
+  color: #fc8181;
+  right: 10px !important;
+  font-size: 16px;
+  top: 13px !important;
+}
+
+.switch-handle1 > .react-switch-bg > div:nth-child(1) {
+  opacity: 1 !important;
+  width: 100px !important;
+  text-align: center;
+  font-size: 16px;
+
+  left: 10px;
+  z-index: 1;
+  color: #ffffff;
+  top: 13px !important;
+}
+.switch-handle > .react-switch-bg {
+  background: rgb(255 255 255) !important;
+}
+
+.switch-handle > .react-switch-bg > div:nth-child(1) {
+  opacity: 1 !important;
+  width: 100px !important;
+  text-align: center;
+  z-index: 1;
+  color: #fc8181;
+  font-size: 16px;
+  top: 13px !important;
+}
+
+.switch-handle > .react-switch-bg > div:nth-child(2) {
+  opacity: 1 !important;
+  width: 100px !important;
+  text-align: center;
+  z-index: 1;
+  font-size: 16px;
+  right: 10px !important;
+  color: #fff;
+  top: 13px !important;
+}
+
+.switch-handle1 > .react-switch-handle {
+  background: rgb(252 129 129) !important;
+  width: 50% !important;
+  left: 0px;
+  right: 0px;
+}
+.switch-handle > .react-switch-handle {
+  background: rgb(252 129 129) !important;
+  width: 50% !important;
+  right: 203px;
+}
+
+.sty1.otpfield-sty {
+  border-radius: 5px;
+  box-shadow: inset 0 1px 2px rgb(0 0 0 / 10%) !important;
+  border: none;
+  background: #f7f7f7;
+  margin-bottom: 20px;
+  width: 100% !important;
+  height: 2.7em;
+  font-size: 1.57em;
+  padding: 0px;
+}
+
+.otp-class {
+  padding: 2px;
+}
+
+.otp-class input[type="text"] {
+  width: 100% !important;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.button-posi {
+  position: absolute;
+  right: 60px;
+  background: #f0f8ff00;
+  border: none;
+  color: #555;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.button-posi:hover {
+  background: #f0f8ff00;
+  color: #555;
+}
+
+.button-posi:active {
+  background: #f0f8ff00;
+  color: #555;
+}
+
+.close-pop {
+  position: absolute;
+  width: 4%;
+  right: 3px;
+  top: 3px;
+  cursor: pointer;
+}
+
+.sty2.in-numsty {
+  background: none repeat scroll 0 0 #f7f8f9;
+  background-color: #e8f0fe;
+  border: 1px solid #e8e8e8;
+  padding: 9px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+label.label-font {
+  font-size: 14px;
+  color: #222;
+  display: block;
+  margin-bottom: 0.4em;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.but-wid-mar {
+  width: 20% !important;
+  margin-top: 0 !important;
+}
+
+  h3.login_title {
+    font-size: 2.8em !important;
+    font-weight: 600 !important;
+    text-align: center !important;
+    padding-top: 15px !important;
+  }
+
+@media (max-width: 600px) {
+  h3.login_title {
+    font-size: 1.3em !important;
+    font-weight: 600 !important;
+    text-align: center !important;
+    padding-top: 15px !important;
+  }
+}

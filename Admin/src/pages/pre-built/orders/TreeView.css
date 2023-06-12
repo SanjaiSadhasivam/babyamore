@@ -1,0 +1,25 @@
+.Treeview-heaing{
+    /* background-color: red; */
+    padding: 30px;
+}
+.Treeview-total-page{
+    margin-top: 100px;
+    background-color: white;
+    margin-left: 40px;
+    margin-right: 40px;
+    height: 70vh;
+}
+.TreeView-content-page{
+    /* display: flex; */
+    /* justify-content: center; */
+    padding-left: 120px;
+}
+.MuiTreeItem-label{
+    font-size:25px !important;
+}
+.MuiSvgIcon-root{
+
+}
+.MuiTreeItem-root:hover{
+    /* background-color: red !important; */
+}

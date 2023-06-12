@@ -1,0 +1,55 @@
+.blog-head >h6
+{
+    text-align: center;
+    color: #d26e4b;
+    font-size: 12px;
+    font-weight: 400;
+}
+.blog-head >h3
+{
+    text-align: center;
+    color: #555;
+}
+.blog-head >p
+{
+    text-align: center;
+    font-size: 12px;
+    margin-top: 1rem;
+    margin-bottom: 1rem !important;
+}
+.blog-head >hr
+{
+    width: 5%;
+    height: 3px;
+    margin: auto;
+    margin-top: 1rem !important;
+}
+.blog-des >p
+{
+    margin-top: 1rem;
+    color: #777777;
+}
+.blog-des >h3
+{
+    margin-top: 1rem;
+    color: #555555;
+
+}
+.blog-des >hr
+{
+    width: 5%;
+    height: 3px;
+    margin: auto;
+    margin-top: 1rem !important;
+}
+.blog-qus
+{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1.5rem;
+}
+.blog-qus-1
+{
+    color: #d26e4b;
+   
+}

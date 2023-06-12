@@ -1,0 +1,40 @@
+
+/*-------------------------------
+Tell us section style
+---------------------------------*/  
+
+.tellUs_section a {
+    padding: 6px 10px;
+}
+.tellUs_section {
+    padding: 51px;
+    background-color: #71505b;
+    color: #fff;
+
+}
+.tellUs_section h2 {
+    margin: 0 0 38px;
+    font-size: 19px;
+}
+
+.tellUs_section {
+    padding: 80px;
+    text-align: center;
+}
+
+.tellUs_section h1 {
+    padding-bottom: 20px;
+}
+
+.tellUs_section a {
+    border: 2px solid #fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.tellUs_section a:hover {
+    text-decoration: none;
+    background-color: #fff;
+    color: #000;
+}

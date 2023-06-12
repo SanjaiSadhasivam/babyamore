@@ -1,0 +1,51 @@
+/*-------------------------------
+Buttons styles
+---------------------------------*/  
+
+.parent_button
+{
+    border: none;
+    background:#fc8181;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+}
+.child_button
+{
+    margin: 2px;
+    border: none;
+    background:transparent;
+    width:25px;
+    padding: 1px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    color:#333 ;
+}
+.child_button:hover
+{
+    background-color: #fc8181;
+    color:#fff;
+}
+.filter_button_container
+{
+    width:100%;
+    display:inline-flex;
+}
+.parent_button_container {
+    margin: 8px 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.child_button_container
+{
+    width:100%;
+    padding-left: 1rem;
+    border-left: 1px solid #c8c9ca;
+}
+.filter_section
+{
+    width:100%
+}

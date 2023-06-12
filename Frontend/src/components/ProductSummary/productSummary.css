@@ -1,0 +1,55 @@
+/*-------------------------------
+  Summary Section Style
+---------------------------------*/  
+
+.summary_contents h3 {
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: "Source Sans Pro", sans-serif !important;
+    color: #555;
+}
+
+.summary_contents p {
+    color: #555;
+    text-align: justify;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: "Source Sans Pro", sans-serif !important;
+}
+.summary_contents p a 
+{
+    color: #d26e4b;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: "Source Sans Pro", sans-serif !important;
+}
+.borderless th {
+    font-size: 14px;
+    color:#555;
+    font-weight: bolder;
+    padding-left: 0;
+}
+.borderless td {
+    border: none !important;
+    font-weight: normal;
+    font-size: 14px;
+    color:#d26e4b ;
+    padding: 6px;
+    
+}
+
+.borderless td:nth-child(2)
+{
+    color:#555;
+}
+.borderless tr:last-child
+{
+    border-bottom:1px solid #ececec;
+    margin-bottom:4px;
+    margin-top:1rem;
+}
+.borderless tbody tr:nth-child(1)
+{
+    margin-top: 1rem !important;
+    margin-bottom: 1rem !important;
+}

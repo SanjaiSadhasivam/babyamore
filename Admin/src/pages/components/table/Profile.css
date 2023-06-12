@@ -1,0 +1,45 @@
+.f-16{
+    font-size: 16px;
+}
+.rating-section :is(span){
+    font-size: 23px;
+    font-weight: 600;
+    color: #fc8181;
+}
+.rating-section :is(ul>li){
+    line-height: 15px;
+}
+.star{
+    text-align: end;
+}
+.star :is(ul,small){
+    display: block;
+    line-height: 15px;
+    
+}
+.dynami :is(li)
+{
+    font-size: 16px;
+    font-weight: 600;
+}
+.dynami-details :is(.row)
+{
+   
+    line-height: 30px;
+}
+.CircularProgressbar-path {
+    stroke: #fc8181 !important;
+  }
+
+  .red
+  {
+    background-color:#fc8181;
+    border: none;
+    padding: 2px 15px;
+  }
+  .green
+  {
+    border: none;
+    background-color:#3be0ac;
+    padding: 2px 9px;
+  }

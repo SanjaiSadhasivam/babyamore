@@ -1,0 +1,20 @@
+.nk-header-fixed + .nk-content {
+    margin-top: 56px !important;
+}
+.icon-status:after {
+    position: absolute!important;
+    text-align: center!important;
+    border-radius: 50%!important;
+    right: -6px!important;
+    top: -8px!important;
+    height: 20px!important;
+    width: 20px;
+    border: 2px solid #fff!important;
+    content: attr(data-count)!important;
+    font-size: 11px!important;
+    color: #fff!important;
+}
+
+.dropdown-menu-xl.dropdown-menu-s1.notification-blur.dropdown-menu.dropdown-menu-right.show{
+    will-change: unset!important;
+}

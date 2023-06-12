@@ -1,0 +1,50 @@
+
+/*-------------------------------
+  Deal section style
+---------------------------------*/  
+
+.deal_section {
+    margin-top: 2rem;
+    margin-left: 17px;
+    margin-right: 17px;
+}
+
+.deal_cards {
+    max-width: 1500px;
+    margin: 0 auto;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    padding-bottom: 7px !important;
+}
+
+.deal_card {
+    margin: 1rem auto !important;
+}
+
+.card_img_col{
+    width: 100% !important;
+    /* height: 15rem !important; */
+}
+
+/*-------------------------------
+responsive behaviour
+---------------------------------*/  
+
+@media only screen and (max-width: 768px) {
+    
+/* .deal_card_image {
+    max-width: 350px;
+    margin: auto !important;
+} */
+}
+@media only screen and (max-width: 600px) {
+   
+    .deal_card_image {
+        /* max-width: 300px; */
+        object-fit: contain;
+        height: 100% !important;
+        /* margin: auto !important; */
+        /* height: 8rem !important; */
+    }
+}

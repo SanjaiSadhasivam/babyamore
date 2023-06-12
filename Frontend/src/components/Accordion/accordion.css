@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap");
+
+/* Style the accordion section */
+.accordion__section {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  background-color: white;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  display: flex;
+  align-items: center;
+  border: 0.3px solid #E9E4D4;
+  border-radius: 10px;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  outline: none;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+
+.accordion__section .active {
+  background-color: rgba(0,0,0,.03);
+  border-top: 1px solid #fc8181;
+}
+.accordion__section .active .accordion__title {
+  color: #fc8181;
+}
+.accordion__section .active .accordion__icon {
+  fill: #fc8181;
+}
+/* Style the accordion content title */
+.accordion__title {
+  font-family: "Open Sans", sans-serif;
+  /* font-weight: 600; */
+  font-size: 17px;
+  margin-left: 15px;
+  color:  #A39E8E;
+}
+
+/* Style the accordion chevron icon */
+.accordion__icon {
+ 
+  transition: transform 0.6s ease;
+  fill:  #A39E8E;
+  transform: rotate(90deg);
+}
+
+/* Style to rotate icon when state is active */
+.rotate {
+  transform: rotate(270deg);
+}
+
+/* Style the accordion content panel. Note: hidden by default */
+.accordion__content {
+  background-color: white;
+  overflow: hidden;
+  transition: max-height 0.6s ease;
+  color:  #A39E8E;
+  margin-left: 23px;
+}
+
+/* Style the accordion content text */
+.accordion__text {
+  font-family: "Open Sans", sans-serif;
+  /* font-weight: 400; */
+  font-size: 14px;
+  padding: 18px;
+}
+
+.faq-head-question
+{
+  margin-top: 5rem;
+  margin-bottom: 8rem;
+}
+.faq-left-side
+{
+  padding-right: 3rem;
+}
+.faq-right-side
+{
+  padding-left: 5rem;
+}
+
+@media only screen and (min-width: 10px) and (max-width: 766px) {
+  .faq-right-side
+{
+  padding-left: 0rem;
+}
+}
+.faq-heading
+{
+  
+  font-size: 1.8rem !important;
+  font-weight: 600 !important;
+  color: #55555a;
+}

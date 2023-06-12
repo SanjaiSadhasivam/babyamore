@@ -1,0 +1,462 @@
+.ProductHead {
+  font-size: 16px;
+  color: #555;
+  text-align: left !important;
+}
+
+ul.breadcrumb.d-flex {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.product_title {
+  color: #555555;
+  font-size: 25px;
+  font-weight: bolder;
+  margin-top: 0.5rem;
+}
+
+li.bread_head a {
+  color: #808080b3;
+  font-size: 13px;
+}
+
+span.divider1 {
+  padding: 0px 5px;
+}
+
+.NoReview {
+  color: #d26e4b;
+  font-size: 14px;
+  padding-left: 5px;
+}
+
+.price-wrapper .price {
+  display: block;
+}
+
+.product-info .price {
+  font-size: 1.5em;
+  margin: 0.5em 0;
+  font-weight: bolder;
+}
+
+.price {
+  line-height: 1;
+  font-size: 24px;
+}
+
+del span.amount {
+  opacity: 0.6;
+  font-weight: 400;
+  margin-right: 0.6em;
+}
+
+span.amount {
+  white-space: nowrap;
+  color: #111;
+  font-weight: 700;
+}
+
+.product-summary .currencySymbol {
+  font-size: 0.75em;
+  vertical-align: top;
+  margin-top: 0.05em;
+}
+
+ins {
+  text-decoration: none;
+}
+
+p.DescPara {
+  max-width: 100%!important;
+  color: rgb(85 85 85 / 82%);
+  margin-bottom: 0.3rem !important;
+}
+
+.DescImg {
+  float: right;
+  width: 340px;
+  margin-bottom: 15px;
+}
+
+p.InfoPara {
+  color: rgb(85 85 85 / 82%);
+}
+
+.DescTabHead {
+  padding: 10px 20px 10px 0px;
+}
+
+.table-border {
+  border-bottom: 1px solid #ececec;
+}
+
+.AddInfoTab {
+  border: 2px solid #fc8181;
+  border-radius: 25px;
+  padding: 10px;
+}
+
+.review_title {
+  color: #555555;
+  font-size: 20px;
+  font-weight: bolder;
+  margin-top: 0.5rem;
+}
+
+ol.comments {
+  list-style: none;
+}
+
+.AvatarBorder {
+  border-radius: 100%;
+}
+
+.ReviewItem {
+  border-bottom: 1px dashed #80808091;
+}
+
+div.ReviewbyUser {
+  font-style: italic;
+  color: #555;
+}
+
+div.UserReview {
+  padding: 0px 30px;
+  color: #555;
+}
+
+li.User_Review {
+  margin-top: 1rem !important;
+}
+
+p.CustomerReviewForm {
+  padding: 15px 30px 5px;
+  margin-bottom: 2rem !important;
+}
+
+ul.ProductDesc li {
+  line-height: 2rem;
+  font-size: 16px;
+}
+
+.BornValue {
+  color: black;
+  margin-left: 5px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.pureborn-mar {
+  margin: 16px 0px;
+}
+.pureborn-cir-img{
+  height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid grey;
+    padding: 2px 8px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.pureborn-cir-img.actived{
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid grey; */
+  padding: 2px 8px;
+  border-radius: 25px;
+  cursor: pointer;
+  border: 2px solid black;
+}
+.pureborn-cir {
+  border: 1px solid grey;
+  padding: 2px 8px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+.pureborn-cir.actived {
+  border: 2px solid black;
+}
+/* .pureborn-cir:hover {
+  border: 2px solid black;
+} */
+
+.printImage {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+}
+
+.ProductDesc.listpara {
+  padding-left: 20px !important;
+}
+
+.button-dev {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.cart-quantity {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 1.5rem;
+  padding: 1rem 0px;
+}
+
+.cart-minus span {
+  color: #989898;
+}
+
+.cart-quantity input {
+  border: 1px solid #ddddddbf !important;
+  align-items: center !important;
+  background-color: #f3f1f2 !important;
+  width: 50px;
+  padding: 5.5px !important;
+  border-radius: 0;
+  text-align: center;
+  justify-content: center;
+}
+
+.cart-minus.minus-left {
+  background: #f3f1f2;
+  padding: 5.5px;
+  border-top-left-radius: 170px 120px;
+  border-bottom-left-radius: 170px 120px;
+  border: 1px solid #ddddddbf !important;
+}
+
+.cart-minus.plus-left {
+  background: #f3f1f2;
+  padding: 5px;
+  border-top-right-radius: 170px 120px;
+  border-bottom-right-radius: 170px 120px;
+  border: 1px solid #ddddddbf !important;
+}
+
+.pureborn-mar .tooltip {
+  background: #006599;
+  color: currentColor;
+}
+
+.pureborn-mar:hover .tooltip {
+  visibility: visible;
+  opacity: 1;
+  transform: translate(-50%, -150%);
+}
+
+.pureborn-mar .tooltip {
+  background: #5851db;
+  color: currentColor;
+}
+
+.prodouctDetails__button,
+.SubmitButton {
+  background: palevioletred;
+  background-image: linear-gradient(to bottom, #fc8181, #fc8181);
+  border-radius: 28px;
+  font-family: Arial;
+  color: #fafafa;
+  font-weight: bold;
+  font-size: 0.9rem;
+  padding: 5px 16px;
+  border: solid #fc8181 2px;
+  text-decoration: none;
+}
+
+.prodouctDetails__button,
+.SubmitButtom:hover {
+  background: palevioletred;
+}
+
+.product-cart-btn {
+  background: #fc8181;
+  border-radius: 28px;
+
+  color: #fff !important;
+  font-size: 14px;
+  padding: 8px 20px;
+
+  border: 2px solid #fc8181 !important;
+  text-decoration: none;
+  margin-top: 6px;
+  margin-left: 20px;
+}
+
+.product-cart-btn:hover {
+  color: #fc8181 !important;
+  background: #fafafa;
+}
+.notify-email {
+  margin-left: 10px;
+  width: 35%;
+  padding: 5px;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+.notify-btn {
+  padding: 5px 13px !important;
+  margin-top: -5px !important;
+  border-radius: 20px !important;
+  color: white !important;
+  font-size: 15px;
+}
+.search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+#submitsearch {
+  border: 1px solid rgb(138, 134, 134);
+  margin-left: -82px;
+  padding: 5px;
+  border-radius: 19px;
+  cursor: pointer;
+  padding-left: 10px;
+  padding-right: 8px;
+  padding-top: 4px;
+
+  display: none;
+  box-shadow: 0 0 1px black;
+  margin-right: 110px;
+}
+
+#searchInput {
+  width: 18%;
+
+  border: 1px solid #000;
+  border-radius: 30px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url("https://cdn2.iconfinder.com/data/icons/ios-7-icons/50/search-24.png");
+
+  background-position: 10px 7px;
+  background-repeat: no-repeat;
+  padding: 8px 20px 8px 40px;
+  -webkit-transition: width 0.8s ease-in-out;
+  transition: width 0.8s ease-in-out;
+  outline: none;
+  opacity: 0.9;
+}
+.text__area {
+  border: 2px solid #fc8181 !important;
+  border-radius: 25px !important;
+  padding: 10px !important;
+  min-height: calc(2.5em + 3.75rem + 2px) !important;
+  resize: none;
+  text-indent: 0.3em;
+}
+.text__areaQA {
+  border: 2px solid #fc8181 !important;
+  /* border-radius: 25px !important;
+  padding: 10px !important;
+  min-height: calc(2.5em + 3.75rem + 2px) !important;
+  resize: none;
+  text-indent: 0.3em; */
+}
+.text__areaQA:focus {
+  border-color: none !important;
+  box-shadow: none !important;
+}
+.text__area:focus {
+  border-color: none !important;
+  box-shadow: none !important;
+}
+
+.review__star {
+  display: flex !important;
+  align-items: center;
+  gap: 10px;
+  font-size: 30px;
+}
+
+.tick__mark {
+  background-color: #fc8181 !important;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  color: white;
+  display: block;
+  margin: 20px auto;
+  margin-top: 0px !important;
+}
+.wp-element-button {
+  color: #82d72d;
+}
+.textAlign_QA {
+  margin: 3px !important;
+}
+p.button.wc-forward.wp-element-button.d-flex.align-items-center{
+  font-size: 1.3em!important;
+}
+
+
+@media (max-width:600px) {
+  p.button.wc-forward.wp-element-button.d-flex.align-items-center{
+  font-size: 0.6em!important;
+  padding: 0px !important;
+}
+.BornValue_wrapper_mobile{
+   
+  display: grid!important;
+  grid-template-columns:auto auto auto auto!important;
+  grid-gap: 10px!important;
+  width: auto!important;
+}
+
+}
+
+.BornValue_wrapper_mobile{
+  display: grid;
+  grid-template-columns:auto auto auto auto;
+  grid-gap: 10px;
+  width: auto!important;
+
+}
+
+.review_box{
+  height: 300px;
+}
+.review_box_height{
+  height: 100px;
+}
+.pureborn-cir-img {
+  position: relative;
+  /* display: inline-block; */
+  /* border-bottom: 1px dotted black; */
+}
+
+.pureborn-cir-img .tooltiptext {
+  visibility: hidden;
+  width:100px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  top: -40px;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.pureborn-cir-img:hover .tooltiptext {
+  visibility: visible;
+}

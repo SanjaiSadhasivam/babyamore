@@ -1,0 +1,49 @@
+
+/*-------------------------------
+SLider Style
+---------------------------------*/  
+
+.productSlider
+{
+    width:99% !important;
+    margin:auto;
+}
+.productSlider .slick-slider .slick-arrow:before {
+    color: #333;
+    font-size: 2rem;
+}
+
+.productSlider .slick-slider .slick-dots button:before {
+    font-size: 1rem;
+    color: #333;
+}
+
+.productSlider .slick-slider .slick-dots li.slick-active button::before {
+    color: #333;
+}
+
+.productSlider .slick-slider .slick-dots {
+    bottom: -50px;
+}
+
+.productSlider .slick-slider .slick-dots li {
+    margin: 0 0.3rem;
+}
+.categories_img
+{
+    max-width: 200px;
+    margin: auto;
+    height: 200px;
+}
+
+/*-------------------------------
+  Responsive Slider
+---------------------------------*/
+@media only screen and (max-width: 620px) {
+ 
+    .categories_img
+    {
+        margin: auto !important;
+        height: 100px;
+    }
+}

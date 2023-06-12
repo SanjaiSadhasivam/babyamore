@@ -1,0 +1,199 @@
+/* Dancing Script - About Page */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+/* Dancing Script - About Page */
+
+.bg-img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-clip: border-box;
+  width: 100%;
+  height: 100%;
+}
+
+.bg_1 {
+  background-image: url(https://www.babyamore.in/wp-content/uploads/2019/03/About-us-1.jpg);
+}
+
+.bg_2 {
+  background-image: url(https://www.babyamore.in/wp-content/uploads/2019/03/About-us-2.jpg);
+}
+
+.bg_3 {
+  background-image: url(https://www.babyamore.in/wp-content/uploads/2019/03/About-us-3-1400x739.jpg);
+}
+
+.bg_4 {
+  background-image: url(https://www.babyamore.in/wp-content/uploads/2019/03/About-us-4-1400x788.jpg);
+}
+
+.banner-layers {
+  max-height: 600px !important;
+  height: 600px !important;
+  position: relative;
+}
+
+#box-with-text .text-box-content {
+  background-color: rgba(255, 255, 255, 0.86);
+  font-size: 100%;
+}
+
+.dance-font{
+    font-family: "Dancing Script", sans-serif;
+}
+
+#box-with-text .text-inner {
+  padding: 30px 30px 30px 30px;
+}
+
+#box-with-text {
+  width: 59%;
+}
+
+#text-box-223107100 {
+  width: 60%;
+}
+
+#text-box-223107100 .text-box-content {
+  font-size: 100%;
+}
+
+.banner-layers > * {
+  position: absolute !important;
+}
+
+@media (min-width: 550px) {
+  #box-with-text {
+    width: 44%;
+  }
+}
+
+@media screen and (min-width: 850px) {
+  .res-text {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 550px) {
+  .img_1 {
+    display: none;
+  }
+
+  .lg-y50 {
+    top: 50%;
+    right: 10px;
+    -webkit-transform: translateY(-50%) !important;
+    -ms-transform: translateY(-50%) !important;
+    transform: translateY(-50%) !important;
+  }
+
+  .lg-y40 {
+    top: 50%;
+    -webkit-transform: translateY(-50%) !important;
+    -ms-transform: translateY(-50%) !important;
+    transform: translateY(-50%) !important;
+  }
+}
+
+.text-box {
+  max-height: 100%;
+}
+
+#box-with-text .text-box-content {
+  background-color: rgba(255, 255, 255, 0.86);
+  font-size: 100%;
+}
+
+.text-box .text-box-content {
+  position: relative;
+  z-index: 10;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.box-shadow-3:hover {
+  -webkit-box-shadow: 0 10px 20px rgb(0 0 0 / 19%), 0 6px 6px rgb(0 0 0 / 22%);
+  box-shadow: 0 10px 20px rgb(0 0 0 / 19%), 0 6px 6px rgb(0 0 0 / 22%);
+}
+
+.box-shadow-3 {
+  -webkit-transition: background-color 0.3s, color 0.3s, opacity 0.3s,
+    -webkit-transform 0.3s, -webkit-box-shadow 0.3s;
+  transition: background-color 0.3s, color 0.3s, opacity 0.3s,
+    -webkit-transform 0.3s, -webkit-box-shadow 0.3s;
+  -o-transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s,
+    color 0.3s, opacity 0.3s;
+  transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s, color 0.3s,
+    opacity 0.3s;
+  transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s, color 0.3s,
+    opacity 0.3s, -webkit-transform 0.3s, -webkit-box-shadow 0.3s;
+}
+
+#box-with-text .text-inner {
+  padding: 30px 30px 30px 30px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.alt-font {
+  font-weight: 700 !important;
+  font-size: 2.9em;
+  padding: 0;
+  font-weight: 400;
+  margin-top: 0.2em;
+  margin-bottom: 0.2em;
+  line-height: 1;
+  font-family: "Dancing Script", sans-serif;
+  color: #555;
+}
+
+#para {
+  margin-top: 2em;
+  margin-bottom: 3em !important;
+  padding: 0;
+  color: rgba(85, 85, 85, 0.68);
+}
+
+#para strong {
+  font-weight: bolder;
+}
+
+.img_1 {
+  position: relative;
+  text-align: center;
+  color: white;
+  margin-top: 2em;
+}
+
+.centered {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: 700 !important;
+  font-size: 1.9em;
+  padding: 0;
+  font-weight: 400;
+  margin-top: 0.2em;
+  margin-bottom: 0.2em;
+  line-height: 1;
+  font-family: "Dancing Script", sans-serif;
+  color: #fff;
+}
+
+@media screen and (min-width: 100px) and (max-width: 549px) {
+  .bg_1 {
+    display: none !important;
+  }
+  .bg_2 {
+    display: none !important;
+  }
+  .bg_3 {
+    display: none !important;
+  }
+  .bg_4 {
+    display: none !important;
+  }
+}

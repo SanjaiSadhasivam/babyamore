@@ -1,0 +1,88 @@
+/*-------------------------------
+wishlist style
+---------------------------------*/
+
+.wishlist_label {
+  height: 26px;
+  width: 26px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  border: 1px solid #e6e6e6;
+  background: #fff;
+  box-shadow: 0px 0px 40px #18181816, 0px 0px 40px #3d3d3d10;
+  cursor: pointer;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.heart {
+  display: grid;
+  place-items: center;
+  position: relative;
+  padding: 2px;
+  top: -18%;
+}
+
+.svg {
+  height: 37px;
+  width: 16px;
+  fill: rgb(168, 170, 181);
+  transition: all 500ms ease-in-out;
+}
+
+.svg:nth-child(2) {
+  position: absolute;
+  vertical-align: middle;
+  margin: auto;
+  z-index: 2;
+}
+.svg_fill {
+  height: 37px;
+  width: 16px;
+  fill: red;
+  transition: all 500ms ease-in-out;
+}
+
+.svg_fill:nth-child(2) {
+  position: absolute;
+  vertical-align: middle;
+  margin: auto;
+  z-index: 2;
+}
+
+.wishlist_input {
+  display: none;
+}
+
+.wishlist_label:hover {
+  background-color: rgb(209, 210, 218);
+}
+
+.wishlist_label:hover .svg {
+  fill: #fff;
+}
+
+.wishlist_input:checked+.heart .svg {
+  fill: #fc8181;
+}
+
+.wishlist_input:checked+.heart .svg .wishlist_input:hover {
+  background-color: #fff !important;
+}
+
+
+.wishlist_input:checked+.heart .svg:nth-child(2) {
+  filter: opacity(1);
+  animation: heart 0.3s linear forwards;
+}
+
+@keyframes heart {
+  to {
+    transform: scale(1.4);
+    filter: opacity(0);
+    fill: red;
+  }
+}

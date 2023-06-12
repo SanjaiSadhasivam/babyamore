@@ -1,0 +1,29 @@
+/*-------------------------------
+Buttons style
+---------------------------------*/
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+  /* margin-bottom: 1.5rem; */
+  margin-right: 1.5rem;
+}
+
+.controls button {
+  width: 35px;
+  height: 35px;
+  border: 0;
+  background-color: #fc8181;
+  color: white;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.5s ease-out;
+}
+
+.controls button:hover {
+  background-color: #fc8181;
+}
+
+.controls button:nth-child(2) {
+  margin-right: 0.7rem !important;
+}

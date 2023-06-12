@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "react-helmet": "^6.1.0",
+    "react-hook-form": "^7.43.0"
+  }
+}

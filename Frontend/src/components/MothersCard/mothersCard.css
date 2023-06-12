@@ -1,0 +1,35 @@
+/* <---maheswari---> */
+
+.custom_card_description_mother {
+   
+    color: #555;
+    font-weight: 600;
+    
+}
+.cards-of-mother
+{
+   
+    padding-top: 7rem;
+    margin: auto;
+}
+.custom_card_img_mother
+{
+    width: 220px;
+}
+.mother_card_price
+{
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 5px;
+}
+
+.mother_card_btn
+{
+    color: white;
+    background-color: #fc8181;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 25px;
+    font-weight: 600;
+    margin-top: 0.5rem;
+}

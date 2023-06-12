@@ -1,0 +1,46 @@
+
+.middleBanner_section {
+    background-color: #6fa6d4;
+    padding-top: 28px;
+    padding-bottom: 28px;
+}
+
+.icon_banner_card {
+    text-align: center;
+}
+.icon_banner_card>p {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-top: 4px;
+}
+.icon_banner_card {
+    margin-bottom: 28px;
+    text-align: center;
+    width: 100%;
+}
+.icon_banner_card>img {
+    float: none;
+    margin-right: 0;
+}
+.icon_banner_card>img {
+    height: 60px;
+    margin-right: 0px;
+    padding: 5px;
+    width: 60px;
+}
+.last_single_call>p {
+    padding-top: 12px;
+}
+
+.icon_bottom_section{
+    padding: 38px 0px;
+    text-align: center;
+    background-color: #273647;
+    color: #fff;
+}
+.icon_bottom_section h4 {
+    font-size: 16px;
+}

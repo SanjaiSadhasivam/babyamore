@@ -1,0 +1,29 @@
+const api = "http://localhost:5000";
+// const api = "http://3.109.217.52:3000/";
+export const API_URL = `${api}`;
+export const token = `eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6IkFuYW5kYXZlbmthdGVzaDAwN0BnbWFpbC5jb20iLCJzdGF0dXMiOiJ0cnVlIiwiaWF0IjoxNjY2MTgyOTYwfQ.UbbTolzZmceuI5UGYlKqX9vbz62A65EeoxMMi-yRiaE`;
+export const API_Brand = `${API_URL}/admin/brand`;
+// export const API_Category = `${API_URL}/admin/category`;
+// export const API_SubCategory = `${API_URL}/admin/subcategory`;
+// export const API_ChildCategory = `${API_URL}/admin/childcategory`;
+
+
+export const API_Category = `${API_URL}/admin/category/subchilddata`;
+export const API_MAIN_Category = `${API_URL}/admin/category`;
+export const API_Brand_Filter = `${API_URL}/admin/Brand/getBrandProductData`;
+export const API_Category_Filter = `${API_URL}/admin/category/getCategoryProductData`;
+export const API_Sub_Category = `${API_URL}/admin/subcategory`;
+export const API_Child_Category = `${API_URL}/admin/childcategory`;
+export const API_POPULAR_Category = `${API_URL}/admin/popularcategories`;
+export const API_Product = `${API_URL}/admin/productlist`;
+export const API_CART = `${API_URL}/admin/carts`;
+export const API_WISH = `${API_URL}/admin/wishlist`;
+export const API_Coupon = `${API_URL}/admin/coupon`;
+export const API_Order = `${API_URL}/admin/Billing`;
+export const API_Login = `${API_URL}/admin/customers/loginCustomer`;
+export const API_Login_Otp = `${API_URL}/admin/customers/otp`;
+export const API_Register = `${API_URL}/admin/customers`;
+export const API_BillingAddress = `${API_URL}/admin/BillingAddress`;
+export const API_BillingAddress_Userid = `${API_URL}/admin/BillingAddress/userid`;
+export const API_Home_Page_Section = `${API_URL}/admin/homepageslider`
+export const API_Related_Product = `${API_URL}/admin/SearchFilter`

@@ -1,0 +1,101 @@
+.address-text-area {
+    padding: 10px 10px 10px 10px;
+    border-radius: 25px !important;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 250px;
+    border: 2px solid #fc8181;
+}
+
+
+.add-billing-address-btn {
+    border: none;
+    border-radius: 100px;
+    padding: 5px 30px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+    margin-top: 1rem;
+    font-weight: bold;
+    border: 2px solid #fc8181;
+    justify-content: space-around;
+    background: #fc8181;
+    align-items: baseline;
+    display: block;
+    margin-left: auto;
+    margin-Right: auto;
+    font-family: 'Samsung Sharp Sans Regular' !important;
+}
+
+.add-billing-address-btn:hover {
+    outline: none;
+    opacity: 1;
+    color: #fff;
+    -webkit-box-shadow: inset 0 0 0 100px rgb(0 0 0 / 20%);
+    box-shadow: inset 0 0 0 100px rgb(0 0 0 / 20%);
+
+}
+
+.address-back-btn {
+    display: inline-flex;
+    border: none;
+    border-radius: 100px;
+    padding: 5px 30px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+    margin-top: 1rem;
+    font-weight: bold;
+    border: 2px solid #fc8181;
+    justify-content: space-around;
+    background: #fc8181;
+    align-items: baseline;
+
+    font-family: 'Samsung Sharp Sans Regular' !important;
+}
+
+.address-back-btn:hover {
+    outline: none;
+    opacity: 1;
+    color: #fff;
+    -webkit-box-shadow: inset 0 0 0 100px rgb(0 0 0 / 20%);
+    box-shadow: inset 0 0 0 100px rgb(0 0 0 / 20%);
+}
+
+
+.address-save-btn {
+    display: inline-flex;
+    border: none;
+    border-radius: 100px;
+    padding: 5px 30px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+    margin-top: 1rem;
+    font-weight: bold;
+    border: 2px solid #fc8181;
+    justify-content: space-around;
+    background: #fc8181;
+    align-items: baseline;
+    /* display: block; */
+    margin-left: auto;
+    margin-Right: auto;
+    font-family: 'Samsung Sharp Sans Regular' !important;
+}
+
+.address-save-btn:hover {
+    outline: none;
+    opacity: 1;
+    color: #fff;
+    -webkit-box-shadow: inset 0 0 0 100px rgb(0 0 0 / 20%);
+    box-shadow: inset 0 0 0 100px rgb(0 0 0 / 20%);
+}
+
+.form__focus:focus {
+    -webkit-box-shadow: 0 0 5px #ccc !important;
+    box-shadow: 0 0 5px #ccc !important;
+    opacity: 1 !important;
+    outline: 0 !important;
+    color: #333 !important;
+    border-color: transparent !important;
+    background-color: #fff !important;
+}

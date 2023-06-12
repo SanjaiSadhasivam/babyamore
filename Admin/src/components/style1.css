@@ -1,0 +1,18 @@
+.Adress_heading{
+    text-align: left !important;
+}
+.total_margin_left{
+    margin-left: 60%;
+}
+.dropdown_list:focus-within{
+    background-color: #fc8181 !important;
+    color: #fff !important;
+}
+
+.dropdown_list {
+    background-color: #fff;
+    color: #fc8181;
+    text-align: left;
+    font-size: 16px;
+}
+

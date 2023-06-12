@@ -1,0 +1,21 @@
+.wishlist-btn
+{
+    background-color: #fc8181;
+    border-radius: 10px;
+    font-size: 15px;
+    color: white;
+    padding: 10px;
+    /* outline: none; */
+    border: none;
+}
+.empty-wishlist
+{
+    text-align: center;
+}
+@media only screen and (max-width: 600px) {
+  .wishlist_dleteicon_mobiles{
+    display: flex!important;
+    align-items: center!important;
+    justify-content: end!important;
+}  
+}

@@ -1,0 +1,176 @@
+.account-container-left {
+    margin: 20px 0px;
+    padding-left: 0 !important;
+    border-right: #ececec solid 0.2px !important;
+    text-align: center;
+    height: 93%;
+}
+
+
+.account-container-left {
+    /* margin-top: 25px; */
+    margin-top: 14px;
+}
+.dz-message label{
+  border: 0.5px solid red;
+  border-radius: 50%;
+  padding: 25px;
+}
+
+.my-acc-sidebar-list a {
+    /* color: #000; */
+    text-decoration: none !important;
+
+}
+
+.my-acc-sidebar-list ul li {
+    /* color: #000; */
+    list-style: none;
+
+}
+
+/* .my-acc-sidebar-list .account-card:active {
+    background-color: red;
+} */
+
+.my-acc-sidebar-name {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.my-acc-sidebar-name .my-acc-icon {
+    padding: 0;
+    color: #fc8181;
+    font-family: 'Samsung Sharp Sans Bold' !important;
+    margin-top: 2px;
+    font-size: 20px;
+
+}
+
+.my-acc-card .my-acc-icon {
+    padding: 0px 10px 0px 0px;
+    color: #fc8181;
+    font-size: 26px;
+}
+
+.my-acc-sidebar-name .my-acc-icon {
+    padding: 0;
+    color: #fc8181;
+    margin-top: 2px;
+    font-size: 60px;
+}
+
+.my-acc-sidebar-name li {
+    padding: 0 0 0 10px;
+    font-family: 'Samsung Sharp Sans Bold' !important;
+    list-style: none;
+}
+
+.my-acc-sidebar-name span {
+    color: #fc8181;
+}
+
+.my-acc-sidebar .my-acc-card {
+    margin: 10px 0;
+    padding: 15px;
+    flex-direction: row;
+    transition: all 0.4s ease-in-out;
+}
+
+.my-acc-sidebar-name {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: 'Samsung Sharp Sans Regular';
+    padding-left: 10px;
+}
+
+
+.my-acc-sidebar .account-card {
+    padding: 10px;
+    flex-direction: row;
+    font-size: 15px;
+    transition: all 0.4s ease-in-out;
+    display: flex;
+    justify-content: start;
+    font-weight: 500;
+    /* color: #7d7d7d !important; */
+    cursor: pointer;
+    align-items: center;
+    border-bottom: 0.5px solid #ececec;
+    padding-left: 3px;
+
+    /* Below Changes Done on 27.06.2022 */
+    font-family: 'Samsung Sharp Sans Bold';
+
+}
+
+.my-acc-sidebar .account-card:hover {
+    border-right: 2px solid #fc8181 !important;
+
+}
+
+  
+  .my-acc-sidebar-name > input[type='file'] {
+    display: none
+  }
+  
+  .my-acc-sidebar-name > label {
+    font-size: 1rem;
+    font-weight: 300;
+    cursor: pointer;
+    outline: 0;
+    user-select: none;
+    border-color: rgb(216, 216, 216) rgb(209, 209, 209) rgb(186, 186, 186);
+    border-style: solid;
+    border-radius: 45px;
+    border-width: 1px;
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(0, 0%, 29%);
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .my-acc-sidebar-name > label:hover {
+    border-color: hsl(0, 0%, 21%);
+  }
+  
+  .my-acc-sidebar-name > label:active {
+    background-color: hsl(0, 0%, 96%);
+  }
+  
+  .my-acc-sidebar-name > label > i {
+    padding-right: 5px;
+  }
+  
+  .my-acc-sidebar-name > label {
+    color: #fc8181;
+    border-color: #fc8181;
+  }
+  
+  .my-acc-sidebar-name > label:hover {
+    border-color: #fc8181;
+  }
+  
+  .my-acc-sidebar-name  > label:active {
+    background-color: hsl(204, 86%, 91%);
+  }
+  
+  
+  @keyframes pulse {
+    0% {
+      color: hsl(48, 100%, 67%);
+    }
+    50% {
+      color: hsl(48, 100%, 38%);
+    }
+    100% {
+      color: hsl(48, 100%, 67%);
+    }
+  }
+  

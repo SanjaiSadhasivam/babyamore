@@ -1,0 +1,31 @@
+const api = process.env.REACT_APP_API_URL;
+export const API_URL = `${api}`;
+export const token = `eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6IkFuYW5kYXZlbmthdGVzaDAwN0BnbWFpbC5jb20iLCJzdGF0dXMiOiJ0cnVlIiwiaWF0IjoxNjY2MTgyOTYwfQ.UbbTolzZmceuI5UGYlKqX9vbz62A65EeoxMMi-yRiaE`;
+
+export const API_Brand = `${API_URL}/admin/brand`;
+export const API_Banner = `${API_URL}/admin/banner`;
+export const API_Popular = `${API_URL}/admin/popularcategories`;
+export const API_Category = `${API_URL}/admin/category`;
+export const API_SubCategory = `${API_URL}/admin/subcategory`;
+export const API_ChildCategory = `${API_URL}/admin/childcategory`;
+export const API_Tags = `${API_URL}/admin/tags`;
+export const API_Attribute = `${API_URL}/admin/CatelogValueAttributes`;
+export const API_Product = `${API_URL}/admin/productlist`;
+export const API_Vendor = `${API_URL}/admin/vendors`;
+export const API_Vendor_Poc = `${API_URL}/admin/poc`;
+export const API_Get_Poc = `${API_URL}/admin/poc`;
+export const API_Warehouse = `${API_URL}/admin/warehouse`;
+export const API_Staff = `${API_URL}/admin/staff`;
+export const API_Role = `${API_URL}/admin/VendorRoles`;
+export const API_Terms = `${API_URL}/admin/commision`;
+export const API_Stock = `${API_URL}/admin/productlist/addStockProduct`
+export const API_Order = `${API_URL}/admin/billing`;
+export const API_Vendor_Brand = `${API_URL}/admin/VendorBrands`;
+export const API_Customer = `${API_URL}/admin/customers`;
+export const API_Dashboard = `${API_URL}/admin/dashboard`;
+export const  API_RESET_PASSWORD = `${API_URL}/admin/ResetPassword/updatepassword`;
+export const API_Stock_update = `${API_URL}/admin/productlist/updateStock`;
+export const  API_DELTEMESSAGE = `${API_URL}/admin/customers/deletenotify`;
+export const  API_Return = `${API_URL}/admin/returnorder`;
+export const  API_Cancel = `${API_URL}/admin/cancelorder`;
+

@@ -1,0 +1,81 @@
+.f-16 {
+    font-size: 16px;
+}
+
+.rating-section :is(span) {
+    font-size: 23px;
+    font-weight: 600;
+    color: #fc8181;
+}
+
+.rating-section :is(ul>li) {
+    line-height: 15px;
+}
+
+.star {
+    text-align: end;
+}
+
+.star :is(ul, small) {
+    display: block;
+    line-height: 15px;
+
+}
+
+.dynami :is(li) {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.dynami-details :is(.row) {
+
+    line-height: 30px;
+}
+
+.CircularProgressbar-path {
+    stroke: #fc8181 !important;
+}
+
+
+.card-checkmark {
+    background-color: #fc8181;
+    border: 3px solid #ffffff;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 104%;
+    top: -32px;
+    /* bottom: 46%; */
+    transform: scale(0.6) translate(-50%, -50%);
+    transition: all 300ms ease;
+}
+
+.borders {
+    border: 3px solid #fc8181;
+}
+
+.card-checkmark::after {
+    content: "";
+    width: 25px;
+    height: 6px;
+    background: #fff;
+    position: absolute;
+    transform: rotate(-44deg);
+    top: 21px;
+    left: 14px;
+}
+.card-checkmark:before {
+    content: "";
+    width: 14px;
+    height: 6px;
+    background: #fff;
+    position: absolute;
+    transform: rotate(47deg);
+    top: 23px;
+    left: 8px;
+
+}
+.RightAlign{
+    margin-left: 30rem;
+}

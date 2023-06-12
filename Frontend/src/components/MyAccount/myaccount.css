@@ -1,0 +1,474 @@
+.myAccount-container {
+    background-color: white;
+    margin-top: 2rem;
+    font-family: 'Samsung Sharp Sans Regular';
+}
+
+
+.my-bio-details h4 {
+    color: #fc8181;
+}
+
+.my-acc-card .my-acc-icon {
+    padding: 0px 10px 0px 0px;
+    color: #fc8181;
+    font-size: 26px;
+}
+
+.my-acc-sidebar-name .my-acc-icon {
+    padding: 0;
+    color: #fc8181;
+    margin-top: 2px;
+    font-size: 60px;
+}
+
+.my-acc-sidebar-name .my-acc-icon {
+    padding: 0;
+    color: #fc8181 !important;
+    margin-top: 2px;
+    font-size: 60px;
+}
+
+.my-acc-sidebar-name {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: 'Samsung Sharp Sans Regular';
+    padding-left: 10px;
+}
+
+
+.my-acc-sidebar .account-card {
+    padding: 10px;
+    flex-direction: row;
+    font-size: 15px;
+    transition: all 0.4s ease-in-out;
+    display: flex;
+    justify-content: start;
+    font-weight: 500;
+
+    cursor: pointer;
+    align-items: center;
+    border-bottom: 0.5px solid #ececec;
+    padding-left: 3px;
+
+
+    font-family: 'Samsung Sharp Sans Bold';
+
+}
+
+.my-acc-sidebar .account-card:hover {
+    border-right: 2px solid #fc8181 !important;
+
+}
+
+
+
+
+
+.my-acc-content-right {
+    padding: 20px;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+
+
+input.address-input.form-control {
+    font-size: 12px;
+    font-family: 'Samsung Sharp Sans Regular';
+}
+
+select.minimal-select {
+    font-family: 'Samsung Sharp Sans Regular';
+    font-size: 12px;
+}
+
+.profile-container .danger-text {
+    color: #fc8181 !important;
+    text-decoration: none;
+}
+
+.profile-container p {
+
+    /* font-family: 'Nunito', sans-serif !important; below changes done on 27.06.2022 */
+    font-family: 'Samsung Sharp Sans Regular';
+    /* font-size: 18px !important; */
+}
+
+.profile-container .bold-span-text {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    /* Blow Changes done on 27.06.2022 */
+    font-family: 'Samsung Sharp Sans Bold';
+    /* font-size: 18px; */
+}
+
+
+
+.profile-container {
+    margin-top: 2rem;
+    color: #7d7d7d !important;
+
+    font-family: 'Samsung Sharp Sans Regular';
+    /* font-size: 18px !important; */
+
+}
+
+.profile-container .profile-button-groups {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    /* Blow Changes done on 27.06.2022 */
+    font-family: 'Samsung Sharp Sans Bold';
+    /* font-size: 18px; */
+}
+
+
+
+/* -----------------------Media query for responsive------------------------*/
+
+@media only screen and (max-width: 600px) {
+    .profile-container .profile-button-groups {
+
+        display: block;
+    }
+}
+
+.profile-container .profile-button-groups Button {
+
+    width: 100%;
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+    color: #fc8181;
+    font-weight: bold;
+    margin: 5px;
+    border-color: #dddddd;
+    background-color: #fff;
+
+}
+
+.profile-container .profile-button-groups Button:hover {
+    background-color: #000 !important;
+    font-weight: bold;
+    color: #fff;
+    transition: all 0.2s ease;
+}
+
+.referral-input-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.referral-checkbox label {
+    color: #7d7d7d !important;
+    font-size: 15px;
+    font-family: 'Samsung Sharp Sans Regular';
+}
+
+/* 
+.referral-table-head {
+    color: #555;
+} */
+.product-table .product-table-row:first-child .product-table-head:first-child,
+.product-table .product-table-row:last-child .product-table-head:first-child,
+.product-table .product-table-row:first-child .product-table-data,
+.product-table .product-table-row:last-child .product-table-data {
+    border: none !important;
+}
+
+.product-table-data,
+.product-table-head {
+    border: 1px #ddd solid;
+}
+
+.product-table-head {
+    width: 304px;
+    font-family: 'Samsung Sharp Sans Regular';
+    padding-left: 15px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.table-head {
+    border-bottom: none !important;
+    font-family: 'Samsung Sharp Sans Bold';
+}
+
+
+/*--------------------------------media query for responsive table-------------------------------------*/
+
+@media screen and (max-width: 995px) {
+    .tables {
+        display: block;
+        justify-content: center;
+    }
+
+    .product-table tr:first-child .product-table-head {
+        display: none !important;
+    }
+
+    .product-table-head {
+        font-family: 'Samsung Sharp Sans Regular';
+        padding-left: 15px;
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    /* .product-table~.product-table .product-table-row:not(:first-child) .product-table-head {
+        display: block !important;
+    }*/
+}
+
+@media screen and (min-width: 996px) {
+
+    .product-table~.product-table .product-table-data,
+    .product-table~.product-table .product-table-head {
+        border-left: 0;
+    }
+
+    .product-table~.product-table .product-table-row:first-child .product-table-head:first-child {
+        display: none;
+    }
+
+    .product-table~.product-table .product-table-row:not(:first-child) .product-table-head {
+        display: none;
+    }
+}
+
+.table-img {
+    height: 226px;
+    width: 250px;
+    background-color: rgb(255, 255, 255) !important;
+    padding: 1rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border: 0.5px solid #f0f0f0;
+    border-radius: 3px;
+}
+
+.table-first-child {
+    margin: auto;
+    text-align: center;
+    font-family: "Samsung Sharp Sans regular";
+    margin-bottom: 10px;
+    font-size: small !important;
+}
+
+.table-first-child p {
+    margin-bottom: 6px;
+    margin-top: 18px;
+}
+
+.table-first-child strong {
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.more-btn {
+    margin-top: 1rem;
+    padding: 7px 42px;
+    border: 1px solid black;
+    background-color: #fff;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: "Samsung Sharp Sans regular";
+}
+
+.people-buy-heading {
+    background-color: #f5f5f5;
+    margin-top: -1rem !important;
+}
+
+.table-stripe-bg {
+    background-color: #f2f2f2 !important;
+    font-weight: 500;
+    font-size: small;
+}
+
+.table-stripe-bg p {
+    text-align: left;
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+}
+
+/*-------------------------------------- Specification Tab view Table------------------------------------------*/
+
+.specfication-table,
+.specification-table-head,
+.specification-table-head1,
+.specification-table-data1,
+.specification-table-data {
+    border: 1px solid #e7e7e7;
+    border-collapse: collapse;
+}
+
+.specification-table-head,
+.specification-table-data {
+    padding: 0.4rem;
+    padding-left: 0.6rem;
+    font-size: small;
+}
+
+.specification-table-head {
+    /* font-weight: 500; */
+    width: 25%;
+    background-color: #f2f2f2;
+}
+
+.specification-table-head1 {
+    font-weight: 500;
+    width: 25%;
+}
+
+.specification-table-head1,
+.specification-table-data1 {
+    padding: 0.4rem;
+    font-size: small;
+    padding-left: 0.6rem;
+}
+
+
+.font-link {
+    font: 400 normal 15px/30px 'Samsung Sharp Sans Regular';
+}
+
+
+
+
+
+
+
+
+
+
+.def-paragraph p {
+    margin-bottom: 0 !important;
+    font-family: 'Nunito', sans-serif !important;
+    color: #7d7d7d !important;
+    font-size: 15px;
+    font-size: 18px !important;
+    font-family: 'Samsung Sharp Sans Bold ' !important;
+
+    /*  font-family: 'Nunito', sans-serif !important;
+        */
+}
+
+
+.table-body {
+    color: #667292 !important;
+}
+
+.referral-table-head {
+    color: #77809f;
+    font-size: 14px;
+    font-family: 'Samsung Sharp Sans Regular';
+    text-transform: uppercase;
+    /* font-family: 'Samsung Sharp Sans Bold'; */
+}
+
+
+
+/* .referral-table h2 {
+
+    font-family: 'Samsung Sharp Sans Bold';
+    font-size: 18px;
+} */
+
+/* .icon-pallet .copy-icon,
+.whatsapp-icon,
+.facebook-icon {
+    color: red !important;
+} */
+
+.d-inline-block {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.search-icon {
+    font-size: 1rem;
+    color: #333;
+    top: .64rem;
+    right: 1.5rem;
+    cursor: pointer;
+}
+
+.search-input {
+    padding-left: 2.5rem;
+    height: 35px;
+    background: #f5f5f5 !important;
+    border: none !important;
+
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.search-input:focus {
+    box-shadow: 0 0 5px #ccc !important;
+    opacity: 1 !important;
+    outline: 0;
+    color: #333;
+    background-color: #fff;
+}
+
+select.basic {
+    height: 35px;
+}
+
+select.simple {
+    padding-left: 0.5rem;
+    height: 35px;
+    border-radius: 20px !important;
+    background: #f5f5f5 !important;
+    border: none !important;
+    outline: none;
+}
+
+select.simple:focus {
+    box-shadow: 0 0 5px #ccc !important;
+    opacity: 1 !important;
+    outline: 0;
+    color: #333;
+    background-color: #fff;
+}
+
+
+.profile-container h2 {
+    /* font-size: 20px; Changes done on 27.06.2022 */
+    font-size: 18px;
+    color: #333;
+    font-family: 'Samsung Sharp Sans Bold' !important;
+}
+
+
+
+.btn-outline-warning:hover {
+    color: #000;
+    background-color: transparent !important;
+    border-color: 0px;
+}
+
+
+select:-moz-focusring {
+    color: transparent;
+    text-shadow: 0 0 0 #000;
+}
+
+.add-address-btn {
+    border: none !important;
+    background-color: transparent;
+    color: #fc8181;
+}
+
+.addres-text-area {
+    border: 2px solid #fc8181;
+    height: 180px;
+    border-radius: 20px;
+    padding: 10px;
+}
+.wishlink:hover a{
+color: #fff!important;
+}

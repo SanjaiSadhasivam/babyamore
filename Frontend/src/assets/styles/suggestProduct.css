@@ -1,0 +1,94 @@
+/* <---@maheswari---> */
+
+.product-suggest-head
+{
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 7rem;
+    background-color: #fff8f6;
+
+}
+
+.product-suggest-head> h6
+{
+    font-weight: 600;
+    font-size: 14px;
+}
+.product-suggest-head> h2{
+    margin-top: 1.3rem;
+    color: #555;
+    font-weight: 600;
+    font-size: 25px;
+}
+.product-suggest-head> p{
+    margin-top: 1.3rem;
+}
+@media only screen and (max-width: 710px) {
+    .suggest-container
+    {
+        margin: auto;
+        display: block !important;
+    }
+}
+
+@media only screen and (max-width: 549px) {
+    .suggest-container img{
+        display: none !important;
+    }
+    .product-suggest-form{
+        padding-left: 20px;
+    }
+    .form-size{
+        width: 90% !important;
+    }
+    .form-btn{
+        margin-bottom: 70px;
+    }
+    .product-suggest-head{
+        padding-left: 10px;
+        padding-top: 3rem;
+        padding-bottom: 7rem;
+        padding-right: 10px;
+    }
+
+}
+
+/* @media only screen and (max-width: 848px) {
+    .suggest-container
+    {
+        display: block !important;
+    }
+    .suggest-container img{
+        width: 100% !important;
+    }
+} */
+.suggest-container img{
+    height: 450px;
+    width: 100%;
+}
+.form-size
+{
+    width: 85%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 3px 2px -2px inset, rgba(0, 0, 0, 0.3) 0px 0px 0px -1px inset;
+}
+.form-size:hover
+{
+    box-shadow: none;
+}
+.full-form
+{
+    padding-left: 20px;
+    margin-bottom: 15px; 
+}
+
+
+.product-suggest-form
+{
+    padding-top: 60px;
+}
+.form-btn
+{
+    margin-left: 20px;
+    padding: 5px !important;
+    /* width: 13%; */
+}

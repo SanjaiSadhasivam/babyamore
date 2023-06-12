@@ -1,0 +1,221 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.color {
+  color: #949494 !important;
+}
+html  {
+  overflow-x:hidden 
+} 
+body {
+  position: relative;
+  overflow-x: hidden;
+  font-family: "Source Sans Pro", sans-serif;
+}
+.modal {
+  display: block !important;
+}
+p {
+  margin-bottom: 0 !important;
+}
+
+a {
+  text-decoration: none !important;
+  color: #000;
+}
+tbody,
+td,
+tfoot,
+th,
+thead,
+tr {
+  border-color: inherit;
+  overflow: hidden !important;
+  border-style: solid;
+  border-width: -1px !important;
+}
+.display-flex {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+}
+
+input[type="search"]::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin-left: 10px;
+  background: linear-gradient(
+      45deg,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 0) 43%,
+      #949494 45%,
+      #949494 55%,
+      rgba(0, 0, 0, 0) 57%,
+      rgba(0, 0, 0, 0) 100%
+    ),
+    linear-gradient(
+      135deg,
+      transparent 0%,
+      transparent 43%,
+      #949494 45%,
+      #949494 55%,
+      transparent 57%,
+      transparent 100%
+    );
+}
+
+.section_title {
+  color: #555555;
+  font-size: 20px;
+  font-weight: bolder;
+  margin-left: 7px;
+  margin-right: 17px;
+  margin-top: 3px;
+  /* width: 41%; */
+  /* margin-bottom: 1rem; */
+}
+
+.hr_line {
+  margin: auto;
+  width: 84.5%;
+  margin-left: 13.5%;
+  margin-right: 5% !important;
+  height: 0 !important;
+  opacity: 0.1;
+  border-bottom: 2px solid;
+  position: absolute;
+  border-top: 0px !important;
+  /* top: 1.5%; */
+  bottom: 15px;
+}
+
+.title_border {
+  border: 1px solid;
+  width: 14%;
+  /* margin-left: 1.5%; */
+  background: rebeccapurple;
+  padding: -0.5px;
+  position: relative;
+  bottom: 15px;
+  margin-top: 6px !important;
+  margin-bottom: 5px !important;
+}
+
+input[type="checkbox"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border-radius: none;
+}
+.form-check-input[type="checkbox"] {
+  border-radius: none !important;
+}
+.shop-head h3 {
+  font-size: calc(1.3rem + 0.6vw);
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+.shop-head h2 {
+  font-size: 1.5em;
+  margin: 30px 0px 40px;
+}
+
+.shop-head i {
+  display: none;
+}
+.shop-head {
+  display: block;
+}
+.shop-head h2 {
+  margin: 0;
+}
+.shop-head h2 span {
+  display: none;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+.MuiTableCell-alignLeft {
+  overflow: hidden !important;
+}
+/* .MuiTableCell-root .MuiTableCell-head .MTableHeader-header-14 .MuiTableCell-alignLeft{
+  background-color: rgb(242, 242, 242); border-width: 1px; border-style: solid; border-color: rgb(242, 242, 242) rgb(242, 242, 242) rgb(197, 193, 193); border-image: initial; position: sticky; width: calc(115.222px); box-sizing: border-box;
+} */
+
+.whatsapp-button {
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  z-index: 99;
+  background-color: #25d366;
+  border-radius: 50px;
+  color: #ffffff;
+  text-decoration: none;
+  width: 50px;
+  height: 50px;
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  -webkit-box-shadow: 0px 0px 25px -6px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 0px 0px 25px -6px rgba(0, 0, 0, 1);
+  box-shadow: 0px 0px 25px -6px rgba(0, 0, 0, 1);
+  animation: effect 5s infinite ease-in;
+}
+.whatsapp-button:hover {
+  color: #fff;
+}
+@keyframes effect {
+  20%,
+  100% {
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+  }
+  0%,
+  10% {
+    width: 55px;
+    height: 55px;
+    font-size: 35px;
+  }
+  5% {
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+  }
+}
+
+._2qp0Z {
+  background-color: #25d366 !important;
+  color: #fff !important;
+  bottom: 6% !important;
+  left: 50px;
+  z-index: 99999;
+  -webkit-box-shadow: 0px 0px 25px -6px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 0px 0px 25px -6px rgba(0, 0, 0, 1);
+  box-shadow: 0px 0px 25px -6px rgba(0, 0, 0, 1);
+  /* animation: effect 5s infinite ease-in; */
+}
+
+.slick-dots li button:before {
+  font-size: 1rem !important;
+}
+
+.see_title:hover{
+  color: #555555!important;
+}
+.brand_name{
+ color: #d26e4b; 
+ font-weight: 800;
+ cursor: pointer;
+}
+.brand_name:hover{
+ color: #333; 
+}

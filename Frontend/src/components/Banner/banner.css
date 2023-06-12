@@ -1,0 +1,15 @@
+/*-------------------------------
+  CSS Comment
+---------------------------------*/  
+
+.center_blog
+{
+    margin: auto;
+    width: 97%;
+}
+
+@media (max-width: 550px) {
+  .center_blog{
+    display: none;
+  }
+}

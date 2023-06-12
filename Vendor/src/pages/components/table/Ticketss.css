@@ -1,0 +1,78 @@
+@media (min-width: 1200px){
+.nav-tabs .nav-item {
+    padding-right: 16px;
+}
+}
+.container1 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #111116;
+    height: 100vh;
+    align-items: center
+}
+
+.progress {
+    /* width: 100%; */
+    height: 30px;
+    font-size: 20px;
+    color: #000;
+    /* border-radius: 50%; */
+    overflow: hidden;
+    position: relative;
+    background: #fff;
+    text-align: center;
+    line-height: 100px;
+    margin: 20px
+}
+
+
+
+.progress .title {position: relative;z-index: 101;text-align: center ;}
+
+.progress .overlay {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-color: #fff
+}
+
+.progress .left, .progress .right {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 5px solid #fc8181;;
+    border-radius: 100px 0px 0px 100px;
+    border-right: 0;
+    transform-origin: right;
+}
+
+.progress .left {animation: load1 1s linear forwards;}
+
+.progress:nth-of-type(2) .right, .progress:nth-of-type(3) .right {animation: load2 .8s linear forwards 1s;}
+
+.progress:last-of-type .right, .progress:first-of-type .right {animation: load3 .12s linear forwards 1s;}
+
+@keyframes load1 {
+    0% {transform: rotate(0deg);}
+
+    100% {transform: rotate(180deg);}
+}
+
+@keyframes load2 {
+    0% {z-index: 100;transform: rotate(180deg);}
+
+    100% {z-index: 100;transform: rotate(270deg);}
+}
+
+@keyframes load3 {
+    0% {z-index: 100;transform: rotate(180deg);}
+
+    100% {
+        z-index: 100;transform: rotate(360deg);}
+}

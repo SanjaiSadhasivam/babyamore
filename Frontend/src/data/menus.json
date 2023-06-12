@@ -1,0 +1,333 @@
+{
+  "menus": [
+    {
+      "id": 0,
+      "text": "Home",
+      "link": "/",
+      "dropdown": []
+    },
+    {
+      "id": 1,
+      "text": "NappyCare",
+      "link": "/nappycarepage",
+      "dropdown": []
+    },
+    {
+      "id": 2,
+      "text": "Shop",
+      "link": "/shop",
+      "dropdown": [],
+      "megaMenus": [
+        {
+          "id": 2.1,
+          "megaMenuTitle": "shop layout",
+          "link": "/shop-layout",
+          "megamenuItems": [
+            {
+              "id": 2.21,
+              "text": "Shop 1",
+              "link": "/shop"
+            },
+            {
+              "id": 2.22,
+              "text": "Shop 2",
+              "link": "/shop"
+            },
+            {
+              "id": 2.23,
+              "text": "Shop 3",
+              "link": "/shop"
+            }
+          ]
+        },
+        {
+          "id": 2.2,
+          "megaMenuTitle": "Product Details Layout",
+          "link": "/products",
+          "megamenuItems": [
+            {
+              "id": 2.232,
+              "text": "Product Layout 1",
+              "link": "/products"
+            },
+            {
+              "id": 2.233,
+              "text": "Product Layout 2",
+              "link": "/shop"
+            },
+            {
+              "id": 2.2343,
+              "text": "Product Layout 3",
+              "link": "/shop"
+            },
+            {
+              "id": 2.5343,
+              "text": "Product Layout 4",
+              "link": "/shop"
+            }
+          ]
+        },
+        {
+          "id": 2.2,
+          "megaMenuTitle": "Product Details Layout",
+          "link": "/product-layout",
+          "megamenuItems": [
+            {
+              "id": 2.232,
+              "text": "Product Layout 1",
+              "link": "/shop"
+            },
+            {
+              "id": 2.233,
+              "text": "Product Layout 2",
+              "link": "/shop"
+            },
+            {
+              "id": 2.2343,
+              "text": "Product Layout 3",
+              "link": "/shop"
+            },
+            {
+              "id": 2.5343,
+              "text": "Product Layout 4",
+              "link": "/shop"
+            }
+          ]
+        },
+        {
+          "id": 3.2,
+          "megaMenuTitle": "Product Details Layout",
+          "link": "/product-layout",
+          "megamenuItems": [
+            {
+              "id": 3.232,
+              "text": "Product Layout 1",
+              "link": "/shop"
+            },
+            {
+              "id": 3.233,
+              "text": "Product Layout 2",
+              "link": "/shop"
+            },
+            {
+              "id": 3.2343,
+              "text": "Product Layout 3",
+              "link": "/shop"
+            },
+            {
+              "id": 3.5343,
+              "text": "Product Layout 4",
+              "link": "/shop"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "text": "Products",
+      "link": "/shop",
+      "dropdown": [],
+      "megaMenus": [
+        {
+          "id": 2.1,
+          "megaMenuTitle": "shop layout",
+          "link": "/shop-layout",
+          "megamenuItems": [
+            {
+              "id": 3.21,
+              "text": "Shop 1",
+              "link": "/shop"
+            },
+            {
+              "id": 3.22,
+              "text": "Shop 2",
+              "link": "/shop"
+            },
+            {
+              "id": 3.23,
+              "text": "Shop 3",
+              "link": "/shop"
+            }
+          ]
+        },
+        {
+          "id": 3.2,
+          "megaMenuTitle": "Product Details Layout",
+          "link": "/product-layout",
+          "megamenuItems": [
+            {
+              "id": 3.232,
+              "text": "Product Layout 1",
+              "link": "/shop"
+            },
+            {
+              "id": 3.233,
+              "text": "Product Layout 2",
+              "link": "/shop"
+            },
+            {
+              "id": 3.2343,
+              "text": "Product Layout 3",
+              "link": "/shop"
+            },
+            {
+              "id": 3.5343,
+              "text": "Product Layout 4",
+              "link": "/shop"
+            }
+          ]
+        },
+        {
+          "id": 4.2,
+          "megaMenuTitle": "Product Details Layout",
+          "link": "/product-layout",
+          "megamenuItems": [
+            {
+              "id": 4.232,
+              "text": "Product Layout 1",
+              "link": "/shop"
+            },
+            {
+              "id": 4.233,
+              "text": "Product Layout 2",
+              "link": "/shop"
+            },
+            {
+              "id": 4.2343,
+              "text": "Product Layout 3",
+              "link": "/shop"
+            },
+            {
+              "id": 4.5343,
+              "text": "Product Layout 4",
+              "link": "/shop"
+            }
+          ]
+        },
+        {
+          "id": 5.2,
+          "megaMenuTitle": "Product Details Layout",
+          "link": "/product-layout",
+          "megamenuItems": [
+            {
+              "id": 5.232,
+              "text": "Product Layout 1",
+              "link": "/shop"
+            },
+            {
+              "id": 5.233,
+              "text": "Product Layout 2",
+              "link": "/shop"
+            },
+            {
+              "id": 5.2343,
+              "text": "Product Layout 3",
+              "link": "/shop"
+            },
+            {
+              "id": 5.5343,
+              "text": "Product Layout 4",
+              "link": "/shop"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "text": "Pages",
+      "link": "/pages",
+      "dropdown": []
+    },
+    {
+      "id": 7,
+      "text": "Blog",
+      "link": "/shop",
+      "dropdown": [],
+      "megaMenus": [
+        {
+          "id": 7.2,
+          "megaMenuTitle": "Product Details Layout",
+          "link": "/product-layout",
+          "megamenuItems": [
+            {
+              "id": 7.232,
+              "text": "Product Layout 1",
+              "link": "/shop"
+            },
+            {
+              "id": 7.233,
+              "text": "Product Layout 2",
+              "link": "/shop"
+            },
+            {
+              "id": 7.2343,
+              "text": "Product Layout 3",
+              "link": "/shop"
+            },
+            {
+              "id": 7.5343,
+              "text": "Product Layout 4",
+              "link": "/shop"
+            }
+          ]
+        },
+        {
+          "id": 7.2,
+          "megaMenuTitle": "Product Details Layout",
+          "link": "/product-layout",
+          "megamenuItems": [
+            {
+              "id": 7.232,
+              "text": "Product Layout 1",
+              "link": "/shop"
+            },
+            {
+              "id": 7.233,
+              "text": "Product Layout 2",
+              "link": "/shop"
+            },
+            {
+              "id": 7.2343,
+              "text": "Product Layout 3",
+              "link": "/shop"
+            },
+            {
+              "id": 7.5343,
+              "text": "Product Layout 4",
+              "link": "/shop"
+            }
+          ]
+        },
+        {
+          "id": 8.2,
+          "megaMenuTitle": "Product Details Layout",
+          "link": "/product-layout",
+          "megamenuItems": [
+            {
+              "id": 8.232,
+              "text": "Product Layout 1",
+              "link": "/shop"
+            },
+            {
+              "id": 8.233,
+              "text": "Product Layout 2",
+              "link": "/shop"
+            },
+            {
+              "id": 8.2343,
+              "text": "Product Layout 3",
+              "link": "/shop"
+            },
+            {
+              "id": 8.5343,
+              "text": "Product Layout 4",
+              "link": "/shop"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

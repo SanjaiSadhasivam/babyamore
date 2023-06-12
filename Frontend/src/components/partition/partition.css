@@ -1,0 +1,95 @@
+
+
+/* <---@maheswari---> */
+
+
+.reward-img
+{
+    width: 687px !important;
+    height: 500px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .reward-img
+{
+    width: 100% !important;  
+}
+
+}
+
+@media only screen and (max-width: 1100px) {
+    .reward-img
+{
+    width: 100% !important;  
+}
+
+}
+
+
+@media only screen and (max-width: 992px) {
+    .reward-img
+    {
+        width: 100% !important;
+        
+    }
+
+}
+
+@media only screen and (max-width: 900px) {
+    .reward-img
+    {
+        width: 100% !important;
+        margin: auto;
+        display: flex;
+    }
+
+}
+@media only screen and (max-width: 768px) {
+    .reward-img
+    {
+        width: 100% !important;
+        
+    }
+    .accordion__title{
+        text-align: left;
+    }
+    
+}
+@media only screen and (max-width: 574px) {
+    .reward-text{
+        margin-top: 4rem !important;
+        margin-bottom: 4rem !important;
+    }
+}
+.reward-text
+{
+    text-align: center;
+    padding-right: 0;
+    padding-left: 0;
+    padding: 25px;
+    margin: auto;
+    
+        
+}
+
+.program-of-reward
+{
+    
+    top: 0;
+}
+.reward-img-paint
+{
+    width: 350px;
+    margin-top: 3rem;
+}
+
+.reward-pic
+{
+    padding-left: 0;
+    padding-right: 0;
+}
+.trems-para
+{
+    text-align: center;
+    margin-bottom: 25px;
+}

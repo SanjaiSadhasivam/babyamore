@@ -1,0 +1,108 @@
+/*-------------------------------
+banner Slider
+---------------------------------*/
+
+.banner-baby-img {
+  width: 100%;
+}
+.benner_img {
+  height: 329px !important;
+  /* width: 98% !important; */
+  /* margin: auto !important; */
+  /* height: 100vh; */
+}
+
+#slider-container article {
+  display: grid !important;
+  width: 20rem !important;
+  margin: 2rem auto;
+}
+
+/*-------------------------------
+arrow button style snd dots style
+---------------------------------*/
+
+.bannerSlider .slick-slider .slick-arrow:before {
+  color: #fc8181;
+  font-size: 2rem;
+  background-color: transparent !important;
+}
+
+.bannerSlider .slick-slider .slick-dots button:before {
+  font-size: 0.7rem;
+  color: #fc8181;
+}
+
+.bannerSlider .slick-slider .slick-dots li.slick-active button::before {
+  color: #fc8181;
+}
+
+.bannerSlider .slick-slider .slick-dots {
+  bottom: 16px;
+}
+
+.bannerSlider .slick-slider .slick-dots li {
+  margin: 0 0.3rem;
+}
+
+.slick-slide > div {
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.mobViewSlider {
+  display: none;
+}
+
+.bannerSlider .slick-slider .slick-arrow {
+  display: block !important;
+  width: 115px;
+  z-index: 1000;
+}
+
+.webViewSlider {
+  display: block;
+}
+
+/*-------------------------------
+  Responsive Slider
+---------------------------------*/
+
+@media only screen and (max-width: 768px) {
+  .webViewSlider {
+    display: none;
+  }
+
+  .mobViewSlider {
+    display: block;
+  }
+}
+
+/* 
+.slick-next:hover {
+    background-color: black !important;
+    color: #fff !important;
+}
+
+.slick-prev:hover {
+    background-color: black !important;
+    color: #fff !important;
+} */
+/* 
+.slick-next:before,
+[dir=rtl] .slick-prev:before {
+    margin-left: -50px;
+    background-color: black;
+    color: #fff;
+}
+
+.slick-prev:before,
+[dir=ltr] .slick-next:before {
+    margin-right: -50px;
+
+    background-color: black;
+
+} */
+
+.carousel-indicators [data-bs-target] {
+  display: none !important;
+}

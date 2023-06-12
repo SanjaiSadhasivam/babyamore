@@ -1,0 +1,83 @@
+/* <----@maheswari----> */
+
+.form-box {
+   
+    margin-top: 6rem;
+    line-height: 4;
+    border-right: 0.1px solid #abb8c3 !important;
+    padding-right: 30px;
+    color: crimson;
+  }
+  .form-group
+  {
+    line-height: 2.5;
+    margin-bottom: 15px;
+  }
+  .form-box-border
+  {
+    border-radius: 20px !important;
+  }
+  .btn-click
+  {
+    padding: 7px;
+    width: 100px;
+    border-radius: 25px;
+    background-color: #fc8181;
+    color: white;
+    font-weight: 600;
+  }
+ 
+  
+  input, textarea {
+    width: 60%;
+    
+  }
+ 
+
+ .office-contact-details
+ {
+   margin-top: 1.5rem;
+
+ }
+ .contact-page-icon
+ {
+  text-align: center;
+  font-size: 4rem;
+  color: #acb4ce;
+ }
+ .contact-page-text>h4
+ {
+  text-align: center !important;
+  color: #555 !important;
+  font-weight: 600 !important;
+ }
+ .contact-page-text>h6
+ {
+  text-align: center !important;
+  color: #555 !important;
+  font-weight: 600 !important;
+ }
+
+ .contact-page-text> p
+ {
+  text-align: center;
+ }
+ .contact-page-icon-2
+ {
+  text-align: center;
+  font-size: 2rem;
+  color: #fc8181;
+  margin-top: 25px;
+  margin-bottom: 20px;
+ }
+ .contact-page-icon-3
+ {
+  text-align: center;
+  color: #ffd05c;
+  font-size: 4rem; 
+ }
+ .mail-contact
+ {
+  text-align: center;
+  margin-bottom: 50px !important;
+ }
